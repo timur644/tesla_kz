@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif  !important;
+}
+.my-nav{
+	background-color: #444;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer {
+	background-color: #444;
+}
+
+.first {
+	font-weight:Bolder;
+	font-size: 11pt;
+	font-family:Calibri;
+}
+li>a{
+    color: white !important;
+    font-family: calibri !important;
+}
+
+.second {
+	font-weight: Bolder;
+	font-size: 9pt;
+	font-family: Calibri;
+}
+
+.center {   
+	
+}
+
+.smoothScroll btn btn-default {
+    font-color:red;
+	 text-align: center;
+}
+ 
+.bg-video{
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    float: left;
+    left: 0px;
+}
+ h1, h2{
+        text-align: center;
+    }
+
+
+body {
+    background-image: url(model.jpg);
+    background-size: 100%;
+}
+
+.red-btn{
+    background-color: #c92c2c;
+    border-radius: 0px;
+    border: 1px solid #c92c2c;
+    margin: 0 auto;
+}
+
+button{
+    margin: 0 auto;
+}
+
+.red-btn:hover{
+    background-color: #c92c2c;
+    border-radius: 0px;
+    border: 1px solid #c92c2c;
+    
+}
+
+.black-btn{
+    background-color: #333;
+    border-radius: 0px;
+    border: 1px solid #333;
+}
+
+.black-btn:hover{
+    background-color: #333;
+    border-radius: 0px;
+    border: 1px solid #333;
+}
+
+
+.black-btn{
+    background-color: #333;
+    border-radius: 0px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .bg-video{
+        opacity: 0.5;
+        display: none !important;
+    }
+}
+.black-btn:hover{
+    background-color: #333;
+    border-radius: 0px;
+    border: 1px solid #333;
+}
+
+.page-header{
+    border-bottom: 0px solid #fff;
+}
+.content{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
